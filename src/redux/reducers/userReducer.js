@@ -15,6 +15,7 @@ function userReducer(state = initialState, action) {
         case POST_USER_SUCCESS:
             const user = action.payload.user
             const jwt = action.payload.jwt
+            
             return {...state, isLoading: false, user: user, jwt: jwt}
 
         case POST_USER_FAILURE:
