@@ -6,7 +6,7 @@ import SignIn from './components/signin';
 
 function App() {
 
-  const counter = useSelector( state => state.userReducer.user);
+  const user = useSelector( state => state.userReducer.user);
   const dispatch = useDispatch(); 
 
   return (
