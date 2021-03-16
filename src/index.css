@@ -6,3 +6,11 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
+.description {
+    margin-bottom: 2em;
+    margin-right: 2em;
+    background-color: orange;
+    list-style: none;
+    padding: 2em;
+}
